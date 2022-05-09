@@ -1,0 +1,425 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border;
+
+}
+
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(212, 217, 218);
+    background-image: radial-gradient(circle at 43.84% 120.44%, #dfe4d0 0, #dbe4d1 3.33%, #d8e5d3 6.67%, #d5e6d5 10%, #d3e6d7 13.33%, #d0e7da 16.67%, #cee7dd 20%, #cce7df 23.33%, #cbe7e2 26.67%, #c9e7e5 30%, #c9e7e7 33.33%, #c9e7ea 36.67%, #c9e7ec 40%, #cae6ef 43.33%, #cbe6f0 46.67%, #cde5f2 50%, #cfe4f3 53.33%, #d2e4f4 56.67%, #d5e3f5 60%, #d8e2f5 63.33%, #dbe1f5 66.67%, #dee0f4 70%, #e2dff3 73.33%, #e5def2 76.67%, #e8ddf0 80%, #ebddee 83.33%, #eedcec 86.67%, #f0dcea 90%, #f2dbe7 93.33%, #f4dbe4 96.67%, #f5dbe2 100%);
+  
+}
+
+.sobre-mi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu ul{
+    display: flex;
+    
+}
+
+.logo__header{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+
+}
+.nav__padre{
+    align-items: center;
+    display: flex;
+    
+}
+
+.nav__items{
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#cc4663;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+header div nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    display:flex;
+    justify-content: left;
+    width:20%; 
+    height: 100%; 
+    
+}
+
+.tratamientos {
+margin-left: 40px;
+
+}
+
+.tratamientos img{
+    height: 400px;
+    width:390px;
+    margin-left: 35px;
+    margin-bottom: 20px; 
+    transition: transform 0.5s;
+}
+
+.tratamientos:hover img{
+    transform: scale(105%);
+}
+
+.bronceado img{
+    height: 400px;
+    width:390px;
+    margin-left: 35px;
+    margin-bottom: 20px;  
+    padding: 10px;
+    
+}
+
+.redes :hover {
+  
+   transform: scale(120%);
+
+}
+
+.redes a{
+    padding: 10px;
+    transform: translate(120%); 
+     
+
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+h2{
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#cc4663;
+    display: flex;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.foto__perfil{
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    margin-left: 20px;
+    display: inline-flex;
+    position: relative;
+    
+    }
+
+div .parrafo1{
+    padding: 30px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: inline;
+    position:absolute;
+    border-color: rgb(231, 121, 121);
+        
+}
+section{
+display: inline;
+}
+
+section .formulario{
+    font-size: 20px;
+    
+}
+
+section .video iframe {
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline;
+    position: relative;
+}
+
+
+
+
+.mapa{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    
+}
+
+div h3{
+    margin-left: 25px;
+    padding: 30px;
+}
+
+div input{
+    margin-left: 55px;
+    padding: 10px;   
+    padding-top: 15px;
+}
+tr td {
+    font-size: 17px;
+    background-color: rgb(253, 252, 252);
+    margin-left: 150px;
+    padding: 20px;
+    
+
+}
+thead tr td{
+    background-color: rgba(240, 113, 166, 0.856);
+    font-size: 25px;
+    
+}
+table{
+    margin-left: 30%;
+    margin-bottom: 25%;
+}
+
+
+.fa-solid  {
+    display:block;
+    font-size: 32px;
+}
+
+
+.maquillajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap:0.5rem;
+   grid-template-areas: 
+   "ele1 ele2 ele3"
+   "ele1 ele4 ele3"
+   "ele5 ele6 ele7"
+   "ele8 ele8 ele8";
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.img__novias1{
+    grid-area: ele1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;   
+    }
+
+.img__novias2{
+        grid-area: ele2;
+        justify-self: center;
+}
+    
+
+.img__novias3{
+   grid-area: ele3;
+    object-fit: cover;
+    justify-self: center;   
+    width: 100%;
+    height: 100%;
+    
+}
+
+ .img__novias4{
+    grid-area: ele4;
+    justify-self: center;
+    align-self: center;
+ }  
+
+
+.img__egresada1{
+ grid-area: ele5;
+ justify-self: center;   
+
+}
+.img__egresada2{
+grid-area: ele8;
+justify-self: center;   
+}
+
+.img__egresada3{
+grid-area: ele7;
+object-fit: cover;
+justify-self: center;       
+}
+
+.img__egresada4{
+grid-area: ele6;
+object-fit: cover;
+    justify-self: center;  
+    align-self: center; 
+    width: 100%;
+    height: 100%;
+}
+
+.img__egresada6{
+grid-area: ele9;
+object-fit: cover;
+    justify-self: center;   
+    width: 100%;
+    height: 100%;
+}
+
+
+/* <--Vistas menores para tablet--!> */
+@media screen and (max-width: 1024px) {
+header{
+    display: flex;
+
+  }
+.fa-solid{
+    display: block;
+    font-size: 52px;
+
+
+}
+.menu{
+    display: none;
+}
+
+.maquillajes{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas:
+            "f1 f2"
+            "f3 f4"
+            "f5 f6"
+            "f7 f8";
+    }
+.img__novias1{
+    grid-area: f1;
+    align-self: center;
+    justify-self: center;   
+        }
+    
+    .img__novias2{
+            grid-area: f2;
+            justify-self: center;
+    }
+        
+    
+    .img__novias3{
+       grid-area: f3;
+        object-fit: cover;
+        justify-self: center;   
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+     .img__novias4{
+        grid-area: f4;
+        justify-self: center;
+        align-self: center;
+     }  
+    
+    
+    .img__egresada1{
+     grid-area: f5;
+     justify-self: center;   
+    
+    }
+    .img__egresada2{
+    grid-area: f6;
+    justify-self: center;   
+    }
+    
+    .img__egresada3{
+    grid-area: f7;
+    object-fit: cover;
+    justify-self: center;       
+    }
+    
+    .img__egresada4{
+    grid-area: f8;
+    object-fit: cover;
+        justify-self: center;  
+        align-self: center; 
+        width: 100%;
+        height: 100%;
+    }
+    .parrafo1{
+        display: none;
+
+    }
+}
+
+/* <--Vistas menores para celular--!> */
+@media screen and (max-width: 600px) {
+ .logo{
+        justify-content: flex-start;
+    }
+
+
+.menu{
+    display: none;
+}
+
+header .fa-solid{
+    display:flex;
+    flex-direction: column;
+    font-size: 100px;
+    }
+
+.maquillajes{
+    grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+        grid-template-areas:
+            "f1"
+            "f2"
+            "f3"
+            "f4"
+            "f5"
+            "f6"
+            "f7"
+            "f8";
+}
+
+
+
+}
