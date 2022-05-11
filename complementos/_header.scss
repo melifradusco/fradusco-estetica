@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border;
+
+}
+
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.logo{
+    width:130px; 
+    height:140px;
+}
+
+.sobre-mi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px ;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.container{
+    .container__logo{
+        width: 150px;
+        height: 150px;
+        
+    }
+} 
+
+.tratamientos {
+margin-left: 40px;
+
+}
+
+h2{
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#cc4663;
+    display: flex;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+section{
+    display: inline;
+}
+    
+section .formulario{
+        font-size: 20px;
+        
+}
+    
+.mapa{
+    margin-left: 30%;
+    margin-bottom: 2%;
+        
+}
+    
+div h3{
+    margin-left: 25px;
+    padding: 30px;
+}
+    
+div input{
+    margin-left: 55px;
+    padding: 10px;   
+    padding-top: 15px;
+}
+    
+    
+    
+  
